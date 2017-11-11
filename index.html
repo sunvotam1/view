@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tra Cứu Điểm</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="http://localhost/view/asset/font/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost/view/asset/css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="http://localhost/view/asset/images/logo.png" class="img-responsive">
+				</div>
+				<div class="col-md-6">
+					<h3>TRANG THÔNG TIN SINH VIÊN</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-9">
+				<div id="nav">
+					<ul>
+						<li>
+							<a href="/">Trang chủ</a>
+							</li>
+							<li>
+							<a href="/sinh-vien">Trang sinh viên</a>
+							</li>
+							<li>
+							<a href="/sinh-vien/thoi-khoa-bieu">Thời khóa biểu</a>
+							</li>
+							<li><a href="/sinh-vien/tra-cuu-diem">Tra cứu điểm</a></li>
+							<li><a href="/sinh-vien/dang-nhap">Đăng nhập</a></li>
+							<li class="pull-right">
+							<span class="small" id="theClock"></span>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<div class="page-header">
+			<div class="container">
+				<div class="row">
+					<h2>
+					<i class="fa fa-user"></i>  TRA CỨU ĐIỂM</h2></div>
+				</div><hr>
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<div id="box">
+							<div id="box_title"><i class="fa fa-table"></i> Thông tin tra cứu</div>
+							<div class="panel-body">
+								<form id="tracuu">
+									<div class="form-horizontal">
+										<div class="form-group">
+											<div class="row">
+												<div class="col-sm-4"><label class="control-label"><b>Tên sinh viên</b></label></div>
+												<div class="col-sm-8">
+													<input class="form-control" data-val="true" data-val-required="Thông tin bắt buộc nhập" placeholder="Tên sinh viên" value="" type="text">
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-4">
+												<label class="control-label"><b>Học kỳ</b></label>
+											</div>
+											<div class="col-sm-8">
+												<select class=" form-control">
+													<option value=""></option>
+													<option value="1">Học kỳ I</option>
+													<option value="2">Học kỳ II</option>
+													<option value="3">Học kỳ hè</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+		</div>
+	<div id="footer"><div class="container">
+	<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 ng-binding">
+			TRƯỜNG ĐẠI HỌC QUANG TRUNG<br>
+			Phát triển bởi K9.101<br>
+			Địa chỉ: Quy Nhơn<br>
+			Fax:  (263) 3554966 - Điện thoại:  (263) 3552111
+			<br>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
